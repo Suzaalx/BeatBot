@@ -88,3 +88,8 @@ else:
 
 playlist = sp.user_playlist_create(user_profile['id'], playlist_name, public=False)
 sp.playlist_add_items(playlist['id'], items=songs_uri)
+
+
+# Developed SonicSync, an AI-driven music recommendation system using Groq for personalized song suggestions and automated Spotify playlist creation.
+# Integrated Spotify API for efficient playlist management and track retrieval, implementing robust error handling for enhanced reliability.
+# Leveraged Python and Pydantic for data validation and secure API key management, creating a user-friendly command-line interface for music discovery.
